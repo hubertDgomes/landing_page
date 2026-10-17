@@ -1,4 +1,6 @@
-
+html {
+  scroll-behavior: smooth;
+}
 .font-jakarta {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
