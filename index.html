@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Global IT</title>
+</head>
+
+<body>
+
+    <header
+        class="bg-[linear-gradient(135deg,#00a651_0%,#00693a_20%,#003d22_40%,#021a0d_65%,#020604_100%)] bg-no-repeat">
+        <div class="max-w-[1600px] m-auto px-4 md:px-8">
+
+            <div class="flex justify-between items-center py-4">
+
+                <p class="text-2xl font-bold font-jakarta text-white">Global IT</p>
+
+                <ul class="hidden md:flex gap-8 font-manrope text-white font-light">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+
+
+                <button
+                    class="hidden md:block bg-white px-7 py-2 rounded-[100px] font-manrope font-bold hover:bg-[#00a651] hover:text-white cursor-pointer">
+                    Get Started
+                </button>
+
+                <button id="menu-btn" class="md:hidden text-white text-3xl cursor-pointer" aria-label="Toggle menu">
+                    &#9776;
+                </button>
+            </div>
+
+            <div id="mobile-menu" class="hidden md:hidden pb-5">
+                <ul class="flex flex-col gap-4 font-manrope text-white font-light">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <button
+                    class="mt-5 w-full bg-white px-7 py-2 rounded-[100px] font-manrope font-bold hover:bg-[#00a651] hover:text-white cursor-pointer">
+                    Get Started
+                </button>
+            </div>
+
+        </div>
+    </header>
+
+    <section
+        class="bg-[linear-gradient(135deg,#00a651_0%,#00693a_20%,#003d22_40%,#021a0d_65%,#020604_100%)] bg-no-repeat py-[60px] lg:py-[100px]">
+        <div class="max-w-[1600px] m-auto px-4 md:px-8">
+
+            <div class="flex flex-col lg:flex-row justify-between items-center gap-10 text-center lg:text-left">
+                <div class="w-full lg:w-[400px]">
+                    <p class="font-manrope text-[18px] md:text-[24px] text-white ">Hey, We're Global IT</p>
+                    <h1 class="font-jakarta text-[44px] md:text-[72px] lg:text-[96px] text-white font-bold leading-tight lg:leading-30">Smart IT Solutions Experts</h1>
+                </div>
+                <div class="w-[220px] md:w-[320px] rotateAnimation">
+                    <img src="images/logo1.png" alt="Global IT Logo" class="w-full h-auto">
+                </div>
+                <div class="w-full lg:w-[320px]">
+                    <h2 class="font-jakarta text-[24px] md:text-[30px] text-white font-bold leading-8 md:leading-10 mb-[10px]">We turn ideas into <br> working technology.</h2>
+                    <p class="font-manrope text-[16px] font-light text-white">Websites, apps and cloud systems that help growing businesses work faster and reach more customers.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+        <div class="bg-black">
+            <div class="max-w-[1600px] m-auto px-4 md:px-8 py-10">
+               <div class="grid grid-cols-2 gap-8 sm:flex text-center sm:text-left sm:flex justify-between items-center text-white font-manrope text-[14px] md:text-[16px]">
+                <div class="">
+                    <p><span class="text-[#30d883]">#</span>01</p>
+                    <p>Web Development</p>
+                </div>
+                <div class="">
+                    <p><span class="text-[#30d883]">#</span>02</p>
+                    <p>App Development</p>
+                </div>
+                <div class="">
+                    <p><span class="text-[#30d883]">#</span>03</p>
+                    <p>UI/UX Design</p>
+                </div>
+                <div class="">
+                    <p><span class="text-[#30d883]">#</span>04</p>
+                    <p>Digital Marketing</p>
+                </div>
+               </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
